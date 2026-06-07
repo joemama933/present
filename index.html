@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alien Stage - Menu</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="menu-panel">
+            <div class="title">ALIEN STAGE</div>
+            <ul>
+                <li onmouseenter="playSound()">BEGIN STAGE</li>
+                <li onmouseenter="playSound()">SELECT CONTESTANT</li>
+                <li onmouseenter="playSound()">SYSTEM ARCHIVE</li>
+                <li onmouseenter="playSound()">COMMUNICATIONS LOG</li>
+            </ul>
+        </div>
+
+        <div class="terminal-panel">
+            <div class="terminal-header">SYSTEM DIAGNOSTICS</div>
+            <div class="terminal-row">> ACCESS_GRANTED...</div>
+            <div class="terminal-row">> SUBJECT: TARGET_15</div>
+            <div class="terminal-row">> STATUS: OPTIMAL</div>
+            <div class="terminal-row">> VITAL_SIGNS: STABLE</div>
+            <div class="terminal-row animate-flicker">> AWAITING STAGE ENTRY_</div>
+        </div>
+    </div>
+
+    <audio id="hover-audio" src="https://www.myinstants.com/media/sounds/scifi-beep.mp3" preload="auto"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
